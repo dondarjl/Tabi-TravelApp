@@ -1,0 +1,208 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">TravelApp</string>
+
+    <!-- Login Screen -->
+    <string name="login_sign_in_subtitle">Sign in to continue</string>
+    <string name="login_register_subtitle">Join the community</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_sign_in_button">Sign in</string>
+    <string name="login_create_account_button">Create account</string>
+    <string name="login_no_account">Don\'t have an account? Register</string>
+    <string name="login_already_account">Already have an account? Sign in</string>
+    <string name="login_error_empty_fields">Please fill in all fields</string>
+    <string name="login_error_short_password">Password must be at least 6 characters</string>
+    <string name="login_error_login_failed">Login failed</string>
+    <string name="login_error_register_failed">Registration failed</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">TravelApp</string>
+    <string name="home_no_trips_title">No trips yet</string>
+    <string name="home_no_trips_subtitle">Be the first to share your adventure!</string>
+    <string name="home_cd_add_trip">Add trip</string>
+    <string name="home_cd_cover_image">Cover image for %1$s</string>
+    <string name="home_no_cover_placeholder">✈</string>
+    <string name="home_error_loading_trips">Error loading trips</string>
+    <string name="home_filter_label">Max budget: €%1$d</string>
+    <string name="home_filter_duration_label">Duration</string>
+    <string name="home_filter_duration_all">All</string>
+    <string name="home_filter_duration_short">Short (1–4 days)</string>
+    <string name="home_filter_duration_medium">Medium (5–10 days)</string>
+    <string name="home_filter_duration_long">Long (10+ days)</string>
+    <string name="home_filter_category_label">Category</string>
+    <string name="home_filter_category_all">All</string>
+    <string name="home_search_placeholder">Search by destination…</string>
+    <string name="home_filter_title">Filters</string>
+    <string name="home_filter_cd_toggle">Toggle filters</string>
+    <string name="home_filter_clear">Clear filters</string>
+    <string name="home_cd_search">Search</string>
+
+    <!-- Add Trip Screen -->
+    <string name="add_trip_title">New Trip</string>
+    <string name="add_trip_section_general">General information</string>
+    <string name="add_trip_section_budget">Budget breakdown (€)</string>
+    <string name="add_trip_section_categories">Trip categories</string>
+    <string name="add_trip_section_itinerary">Itinerary</string>
+    <string name="add_trip_field_title_label">Trip title *</string>
+    <string name="add_trip_field_title_placeholder">e.g. 4 days in Ibiza</string>
+    <string name="add_trip_field_destination_label">Destination *</string>
+    <string name="add_trip_field_destination_placeholder">e.g. Ibiza, Spain</string>
+    <string name="add_trip_field_description_label">Description</string>
+    <string name="add_trip_field_description_placeholder">Tell us about your experience...</string>
+    <string name="add_trip_field_start_date_label">Start date</string>
+    <string name="add_trip_field_end_date_label">End date</string>
+    <string name="add_trip_field_date_placeholder">dd/mm/yyyy</string>
+    <string name="add_trip_field_flights_label">Flights</string>
+    <string name="add_trip_field_accommodation_label">Accommodation *</string>
+    <string name="add_trip_field_food_label">Food *</string>
+    <string name="add_trip_field_transport_label">Transport *</string>
+    <string name="add_trip_field_activities_label">Activities</string>
+    <string name="add_trip_field_other_label">Other</string>
+    <string name="add_trip_field_cost_placeholder">0</string>
+    <string name="add_trip_publish_button">Publish trip</string>
+    <string name="add_trip_cd_back">Back</string>
+    <string name="add_trip_error_required_fields">Title and destination are required</string>
+    <string name="add_trip_error_budget_required">Accommodation, food and transport are required</string>
+    <string name="add_trip_error_category_required">Select at least one category</string>
+    <string name="add_trip_error_not_logged_in">You must be logged in</string>
+    <string name="add_trip_error_saving">Error saving trip</string>
+    <string name="add_trip_cover_photo_button">Add cover photo</string>
+    <string name="add_trip_cover_photo_change">Change photo</string>
+    <string name="add_trip_cover_photo_cd">Cover photo preview</string>
+    <string name="add_trip_error_uploading">Error uploading photo</string>
+    <string name="add_trip_itinerary_hint">Select start and end date first</string>
+    <string name="add_trip_day_places_label">Places visited on day %1$d</string>
+    <string name="add_trip_day_places_placeholder">Separate with commas e.g. Sagrada Família, Park Güell</string>
+
+    <!-- Edit Trip Screen -->
+    <string name="edit_trip_title">Edit Trip</string>
+    <string name="edit_trip_save_button">Save changes</string>
+    <string name="edit_trip_cd_back">Back</string>
+    <string name="edit_trip_error_saving">Error saving changes</string>
+    <string name="edit_trip_cd_edit">Edit trip</string>
+
+    <!-- Trip Detail Screen -->
+    <string name="detail_default_title">Trip Detail</string>
+    <string name="detail_tab_overview">Overview</string>
+    <string name="detail_tab_budget">Budget</string>
+    <string name="detail_tab_map">Map</string>
+    <string name="detail_tab_itinerary">Itinerary</string>
+    <string name="detail_posted_by">Posted by %1$s</string>
+    <string name="detail_contact_button">Contact traveller</string>
+    <string name="detail_chat_own_trip">Open trip chat</string>
+    <string name="detail_budget_title">Budget breakdown</string>
+    <string name="detail_budget_flights">Flights</string>
+    <string name="detail_budget_accommodation">Accommodation</string>
+    <string name="detail_budget_food">Food</string>
+    <string name="detail_budget_transport">Transport</string>
+    <string name="detail_budget_activities">Activities</string>
+    <string name="detail_budget_other">Other</string>
+    <string name="detail_budget_total">Total</string>
+    <string name="detail_cd_back">Back</string>
+    <string name="detail_cd_cover_image">Cover image</string>
+    <string name="detail_error_loading">Error loading trip</string>
+    <string name="detail_error_not_found">Trip not found</string>
+    <string name="detail_map_cd_marker">Location marker for %1$s</string>
+    <string name="detail_map_loading">Loading map…</string>
+    <string name="detail_map_error">Could not find location for this destination</string>
+    <string name="detail_likes_count">%1$d likes</string>
+    <string name="detail_cd_like">Like this trip</string>
+    <string name="detail_cd_unlike">Unlike this trip</string>
+    <string name="detail_categories_label">Categories</string>
+    <string name="detail_itinerary_empty">No itinerary added for this trip</string>
+    <string name="detail_day_label">Day %1$d</string>
+    <string name="detail_day_places_label">Places</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_unknown_user">Unknown user</string>
+    <string name="profile_sign_out_button">Sign out</string>
+    <string name="profile_my_trips_title">My trips</string>
+    <string name="profile_no_trips_title">No trips yet</string>
+    <string name="profile_no_trips_subtitle">Publish your first trip!</string>
+    <string name="profile_error_loading">Error loading your trips</string>
+    <string name="profile_cd_edit">Edit profile</string>
+    <string name="profile_username_placeholder">No username yet</string>
+
+    <!-- Chat Screen -->
+    <string name="chat_title">Trip Chat</string>
+    <string name="chat_cd_back">Back</string>
+    <string name="chat_message_placeholder">Write a message…</string>
+    <string name="chat_send_cd">Send message</string>
+    <string name="chat_no_messages_title">No messages yet</string>
+    <string name="chat_no_messages_subtitle">Be the first to say something!</string>
+    <string name="chat_error_sending">Error sending message</string>
+    <string name="chat_error_loading">Error loading messages</string>
+
+    <!-- Liked Screen -->
+    <string name="liked_title">Liked</string>
+    <string name="liked_empty_title">No liked trips yet</string>
+    <string name="liked_empty_subtitle">Like trips to save them here</string>
+    <string name="liked_error">Error loading liked trips</string>
+
+    <!-- Notifications Screen -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_empty_title">No notifications yet</string>
+    <string name="notifications_empty_subtitle">Activity on your trips will appear here</string>
+    <string name="notifications_error">Error loading notifications</string>
+    <string name="notification_like_text">%1$s liked your trip to %2$s</string>
+    <string name="notification_chat_text">%1$s wrote in your trip to %2$s</string>
+
+    <!-- Notifications (MA-07) -->
+    <string name="notification_trip_published_title">Trip published!</string>
+    <string name="notification_trip_published_text">Your trip to %1$s is now live</string>
+
+    <!-- Edit Profile Screen -->
+    <string name="edit_profile_title">Edit profile</string>
+    <string name="edit_profile_cd_back">Back</string>
+    <string name="edit_profile_username_label">Username</string>
+    <string name="edit_profile_username_placeholder">e.g. traveller_diego</string>
+    <string name="edit_profile_bio_label">Bio</string>
+    <string name="edit_profile_bio_placeholder">Tell us about yourself…</string>
+    <string name="edit_profile_save_button">Save changes</string>
+    <string name="edit_profile_photo_button">Change profile photo</string>
+    <string name="edit_profile_photo_change">Change photo</string>
+    <string name="edit_profile_photo_cd">Profile photo</string>
+    <string name="edit_profile_error_saving">Error saving profile</string>
+    <string name="edit_profile_change_password_button">Change password</string>
+    <string name="edit_profile_delete_account_button">Delete account</string>
+    <string name="edit_profile_new_password_label">New password</string>
+    <string name="edit_profile_new_password_placeholder">At least 6 characters</string>
+    <string name="edit_profile_password_success">Password changed successfully</string>
+    <string name="edit_profile_password_error">Error changing password</string>
+    <string name="edit_profile_delete_confirm">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="edit_profile_delete_confirm_button">Delete</string>
+    <string name="edit_profile_cancel_button">Cancel</string>
+    <string name="edit_profile_delete_error">Error deleting account</string>
+    <string name="edit_profile_error_short_password">Password must be at least 6 characters</string>
+    <string name="edit_profile_current_password_label">Current password</string>
+    <string name="edit_profile_current_password_placeholder">Enter your current password</string>
+
+    <!-- Public profile -->
+    <string name="public_profile_title">Profile</string>
+    <string name="public_profile_error">Error loading profile</string>
+    <string name="public_profile_trips_count">%1$d trips</string>
+    <string name="public_profile_trips_label">Trips</string>
+
+    <!-- Categories -->
+    <string name="category_urban">Urban</string>
+    <string name="category_cultural">Cultural</string>
+    <string name="category_nature">Nature</string>
+    <string name="category_gastronomic">Gastronomic</string>
+    <string name="category_party">Party</string>
+    <string name="category_beach">Beach</string>
+    <string name="category_adventure">Adventure</string>
+    <string name="category_relax">Relax</string>
+    <string name="category_roadtrip">Road trip</string>
+    <string name="category_backpacker">Backpacker</string>
+
+    <!-- Date picker -->
+    <string name="date_picker_start_title">Select start date</string>
+    <string name="date_picker_end_title">Select end date</string>
+    <string name="date_picker_confirm">OK</string>
+    <string name="date_picker_cancel">Cancel</string>
+    <string name="date_picker_cd_open">Open calendar</string>
+
+</resources>
